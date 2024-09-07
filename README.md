@@ -65,23 +65,24 @@ To use the code in this repository clone the repository:
 ## Usage
 
 1. Setup and Run in Jupyter Notebook
+   
   ```bash
     pip install jupyter
- ```
+  ```
   Once installed, launch Jupyter Notebook:
-```bash
+  ```bash
     jupyter notebook
-```
+   ```
    After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the 
    NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
 
 2. Model Training/Evaluating in Jupyter Notebook
    
- Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
- This example will use the DeBERTa model.
+  Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
+  This example will use the DeBERTa model.
    
- Navigate to the directory:
- ```bash
+  Navigate to the directory:
+  ```bash
    cd NLI
     ```
    Open the notebook:
@@ -89,22 +90,22 @@ To use the code in this repository clone the repository:
    jupyter notebook deberta.ipynb
    ```
 
-4. Ensemble Model Training in Jupyter Notebook
+3. Ensemble Model Training in Jupyter Notebook
 
- For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
- For this example we are going to train a CapsuleNet ensemble model.
- ```bash
+  For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
+  For this example we are going to train a CapsuleNet ensemble model.
+  ```bash
    jupyter notebook ensemble-CapsuleNet-simple.ipynb
-```
+  ```
 
-5. Explainability Analysis in Jupyter Notebook
+4. Explainability Analysis in Jupyter Notebook
    
- To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
- ```bash
+  To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
+  ```bash
    jupyter notebook deberta-lime.ipynb
    ```
- To generate  SHAP explanations, open the **deberta-shap.ipynb** notebook from the **Explainability directory**:
- ```bash
+  To generate  SHAP explanations, open the **deberta-shap.ipynb** notebook from the **Explainability directory**:
+  ```bash
    jupyter notebook deberta-shap.ipynb
    ```
 
