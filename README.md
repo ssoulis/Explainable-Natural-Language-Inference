@@ -1,6 +1,6 @@
 # Explainable-Natural-Language-Inference
 
-This repository contains the code and datasets used for the paper "Natural Language Inference with Transformer Ensembles and Explainability Techniques" by Isidoros Perikos and Spyro Souli.
+This repository contains the code and datasets used for the paper **"Natural Language Inference with Transformer Ensembles and Explainability Techniques"** by Isidoros Perikos and Spyro Souli.
 
 ## Getting Started
 
