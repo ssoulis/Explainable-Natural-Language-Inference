@@ -115,9 +115,10 @@ Our experimental results demonstrated significant performance improvements using
 Performance of different models on NLI tasks:
 | Model        | MNLI-m Accuracy | MNLI-mm Accuracy | SNLI Accuracy | ANLI R3 Accuracy |
 |--------------|-----------------|------------------|---------------|------------------|
-| RoBERTa      | 90.8%           | 90.7%            | 93.3%         | 73.4%            |
+| RoBERTa(Large)| 90.8%           | 90.7%            | 93.3%         | 73.4%            |
 | ALBERT       | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
 | DeBERTa      | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
+| T5           | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
 | **CapsuleNet(Ensemble)** | **97.1%**        | **96.8%**        | **96.4%**     | **82.3%**        |
 
 
