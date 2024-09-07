@@ -107,6 +107,18 @@ To use the code in this repository clone the repository:
    jupyter notebook deberta-shap.ipynb
    ```
 
+## Results 
+
+
+Our experimental results demonstrated significant performance improvements using stacking ensemble techniques. The best-performing ensemble model surpassed the best individual transformer model by 5.31% on the MNLI-m and MNLI-mm tasks.
+
+Performance of different models on NLI tasks:
+| Model        | MNLI-m Accuracy | MNLI-mm Accuracy | SNLI Accuracy | ANLI R3 Accuracy |
+|--------------|-----------------|------------------|---------------|------------------|
+| RoBERTa      | 90.8%           | 90.7%            | 93.3%         | 73.4%            |
+| ALBERT       | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
+| DeBERTa      | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
+| **CapsuleNet(Ensemble)** | **97.1%**        | **96.8%**        | **96.4%**     | **82.3%**        |
 
 
 
