@@ -1,5 +1,33 @@
 # Explainable-Natural-Language-Inference
-Natural Language Inference with Transformer Ensembles and Explainability Techniques
+
+This repository contains the code and datasets used for the paper "Natural Language Inference with Transformer Ensembles and Explainability Techniques" by Isidoros Perikos and Spyro Souli.
+
+## Getting Started
+
+* [Introduction](#introduction)
+* [Features](#features)
+* [Project Structure](#project-structure)
+* [Datasets](#datasets)
+* [Installation](#installation)
+* [Results](#results)
+* [Explainability Methods](#explainability-methods)
+* [To Do - Future Work](#To-Do---Future-Work)
+
+## Introduction
+
+Natural Language Inference (NLI) is a challenging task in Natural Language Processing (NLP) that involves determining whether a given hypothesis can be inferred from a given premise. This repository provides the implementation of transformer-based models, such as  ALBERT, RoBERTa and DeBERTa, for NLI tasks across several datasets including SNLI, GLUE, and ANLI.
+We also incorporate explainability techniques such as LIME and SHAP to interpret the decision-making processes of the models. Ensemble methods like stacking are utilized to improve accuracy and robustness.
 
 
-Natural Language Inference (NLI) is a fundamental and quite challenging task in natural language processing, requiring efficient methods that are able to determine whether given hypotheses derive from given premises. In this paper, we apply explainability techniques to natural language inference methods as a mean to illustrate the decision-making procedure of methods. First, we investigate the performance and generalization capabilities of several Transformer-based models, including BERT, ALBERT, RoBERTa, and DeBERTa, across widely-used datasets like SNLI, GLUE Benchmark, and ANLI. Then, we employ stacking en-semble techniques, to leverage the strengths of multiple models and improve inference per-formance. Experimental results demonstrate significant improvements of the ensemble models in inference tasks, highlighting the effectiveness of stacking. Specifically, our best-performing ensemble models surpassed best performing individual transformer by 5.31% in accuracy on MNLI-m and MNLI-mm tasks. After that, we implement LIME and SHAP explainability techniques to shed light on the decision-making of the transformer models indicating how specific words and contextual information are utilized in the transformer inferences proce-dures. The results indicate that the model properly leverage contextual information and indi-vidual words to make decisions but, in some cases, find difficulties in inference scenarios with metaphorical connections which require deeper inferential reasoning.
+## Features
+
+*  Implementation of multiple transformer models: ALBERT, RoBERTa and DeBERTa
+*  Stacking ensemble methods for improved inference accuracy.
+*  Explainability with LIME and SHAP to interpret how models make decisions.
+*  Support for MNLI, ANLI, and SNLI datasets for NLI tasks.
+*  Detailed result analysis and performance comparisons.
+
+  
+
+
+
