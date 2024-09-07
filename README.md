@@ -26,8 +26,19 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 *  Explainability with LIME and SHAP to interpret how models make decisions.
 *  Support for MNLI, ANLI, and SNLI datasets for NLI tasks.
 *  Detailed result analysis and performance comparisons.
-
   
+
+## Project Structure
+  
+├── Datasets/                     # Folder containing datasets (SNLI, MNLI, ANLI)
+├── Explainability/                # Code for LIME and SHAP explainability techniques
+├── Figures and Charts/            # Performance charts and visualizations
+├── LIME explanations/             # LIME explanations for NLI tasks
+├── Models/                        # Pretrained and finetuned transformer models
+├── NLI/                           # Scripts for training and evaluating NLI tasks
+├── Predictions/                   # Folder for storing model predictions
+├── SHAP explanations/             # SHAP explanations for NLI tasks
+└── README.md                      # Readme file with project details
 
 
 
