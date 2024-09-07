@@ -133,7 +133,9 @@ We implemented the LIME and SHAP explainability techniques to provide insights i
 
 ## Future Work
 
-Future work will focus on addressing the limitations identified in this research. One of the primary areas for improvement is enhancing the model's ability to identify and evaluate semantic connections between sentences.
+Future work will focus on addressing the limitations identified in this research. 
+
+* One of the primary areas for improvement is enhancing the model's ability to identify and evaluate semantic connections between sentences.
 * This will involve refining the model's understanding of more complex relationships, such as metaphorical or inferential reasoning.
 * Additionally, we will explore different types of training data to reduce biases that may emerge during model training. This will help the model generalize better across a wider range of scenarios.
 * We also plan to test more sophisticated techniques, including dynamic reweighting of inputs, which would allow the model to adjust the importance of input features based on context.
@@ -142,7 +144,7 @@ Future work will focus on addressing the limitations identified in this research
 
 Some initial code for the Attention Visualization technique is already written and available in the **Explainability folder**.
 
-Open the notebook below to access the results:
+Open the notebook below to run the Attention Visualization explainer:
 ```bash
 jupyter notebook deberta-explainability-attention-visualization.ipynb
 ```
