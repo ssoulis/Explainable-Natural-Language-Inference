@@ -32,16 +32,22 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 
 ```python 
 ├── Datasets/                     # Folder containing datasets (SNLI, MNLI, ANLI)
-├── Explainability/                # Code for LIME and SHAP explainability techniques
+├── Explainability/                # Code for LIME and SHAP explainability techniques. There is also code for the Attention Visulization method.
 ├── Figures and Charts/            # Performance charts and visualizations
 ├── LIME explanations/             # LIME explanations for NLI tasks
-├── Models/                        # Pretrained and finetuned transformer models
+├── Models/                        # Ensemble transformer models 
 ├── NLI/                           # Scripts for training and evaluating NLI tasks
 ├── Predictions/                   # Folder for storing model predictions
 ├── SHAP explanations/             # SHAP explanations for NLI tasks
 └── README.md                      # Readme file with project details
 ```
 
+## Datasets
 
+This repository uses several widely recognized datasets for NLI:
+
+*  [SNLI](https://www.kaggle.com/datasets/stanfordu/stanford-natural-language-inference-corpus) (Stanford Natural Language Inference): Provides around 570k sentence pairs.
+*  [MNLI] (Multi-Genre Natural Language Inference): Includes over 400k sentence pairs from different genres.
+*  [ANLI] (Adversarial NLI): Contains more challenging examples, focusing on adversarially constructed sentence pairs.
 
 
