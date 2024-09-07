@@ -67,7 +67,7 @@ To use the code in this repository clone the repository:
     ```bash
     pip install jupyter
     ```
-Once installed, launch Jupyter Notebook:
+   Once installed, launch Jupyter Notebook:
    ```bash
     jupyter notebook
    ```
