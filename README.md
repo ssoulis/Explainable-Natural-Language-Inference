@@ -64,7 +64,7 @@ To use the code in this repository clone the repository:
 
 ## Usage
 
-1. Setup and Run in Jupyter Notebook
+**1. Setup and Run in Jupyter Notebook**
    
   ```bash
     pip install jupyter
@@ -76,7 +76,7 @@ To use the code in this repository clone the repository:
    After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the 
    NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
 
-2. Model Training/Evaluating in Jupyter Notebook
+**2. Model Training/Evaluating in Jupyter Notebook**
    
   Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
   This example will use the DeBERTa model.
@@ -90,7 +90,7 @@ To use the code in this repository clone the repository:
    jupyter notebook deberta.ipynb
    ```
 
-3. Ensemble Model Training in Jupyter Notebook
+**3. Ensemble Model Training in Jupyter Notebook**
 
   For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
   For this example we are going to train a CapsuleNet ensemble model.
@@ -98,7 +98,7 @@ To use the code in this repository clone the repository:
    jupyter notebook ensemble-CapsuleNet-simple.ipynb
   ```
 
-4. Explainability Analysis in Jupyter Notebook
+**4. Explainability Analysis in Jupyter Notebook**
    
   To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
   ```bash
@@ -112,7 +112,7 @@ To use the code in this repository clone the repository:
 ## Results 
 
 
-Our experimental results demonstrated significant performance improvements using stacking ensemble techniques. The best-performing ensemble model surpassed the best individual transformer model by 5.31% on the MNLI-m and MNLI-mm tasks.
+Our experimental results demonstrated significant performance improvements using stacking ensemble techniques. The best-performing ensemble model surpassed the best individual transformer model by **5.31%** on the **MNLI-m** and **MNLI-mm tasks**.
 
 Performance of different models on NLI tasks:
 | Model        | MNLI-m Accuracy | MNLI-mm Accuracy |
@@ -126,7 +126,7 @@ Performance of different models on NLI tasks:
 
 ## Explainability Methods
 
-We implemented the LIME and SHAP explainability techniques to provide insights into the decision-making process of the transformer models. This helps visualize how the models utilize words and contextual information for their predictions.
+We implemented the **LIME** and **SHAP** explainability techniques to provide insights into the decision-making process of the transformer models. This helps visualize how the models utilize words and contextual information for their predictions.
 
 * [LIME](https://github.com/marcotcr/lime) (Local Interpretable Model-agnostic Explanations): Provides instance-specific interpretations.
 * [SHAP](https://github.com/shap/shap) (SHapley Additive exPlanations): Gives both local and global explanations for the model’s behavior.
