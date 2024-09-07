@@ -71,7 +71,8 @@ Once installed, launch Jupyter Notebook:
    ```bash
     jupyter notebook
    ```
-After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
+  After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the 
+  NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
 
 2. Model Training/Evaluating in Jupyter Notebook
    Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
@@ -90,9 +91,9 @@ After launching, navigate to the Explainable-Natural-Language-Inference director
 
    For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
    For this example we are going to train a CapsuleNet ensemble model.
- ```bash
+   ```bash
    jupyter notebook ensemble-CapsuleNet-simple.ipynb
-  ```
+    ```
 
 4. Explainability Analysis in Jupyter Notebook
    To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
