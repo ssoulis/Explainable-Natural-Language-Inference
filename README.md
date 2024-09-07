@@ -29,7 +29,8 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
   
 
 ## Project Structure
-  
+
+```python 
 ├── Datasets/                     # Folder containing datasets (SNLI, MNLI, ANLI)
 ├── Explainability/                # Code for LIME and SHAP explainability techniques
 ├── Figures and Charts/            # Performance charts and visualizations
@@ -39,6 +40,8 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 ├── Predictions/                   # Folder for storing model predictions
 ├── SHAP explanations/             # SHAP explanations for NLI tasks
 └── README.md                      # Readme file with project details
+```
+
 
 
 
