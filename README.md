@@ -113,13 +113,13 @@ To use the code in this repository clone the repository:
 Our experimental results demonstrated significant performance improvements using stacking ensemble techniques. The best-performing ensemble model surpassed the best individual transformer model by 5.31% on the MNLI-m and MNLI-mm tasks.
 
 Performance of different models on NLI tasks:
-| Model        | MNLI-m Accuracy | MNLI-mm Accuracy | SNLI Accuracy | ANLI R3 Accuracy |
-|--------------|-----------------|------------------|---------------|------------------|
-| RoBERTa(Large)| 90.8%           | 90.7%            | 93.3%         | 73.4%            |
-| ALBERT       | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
-| DeBERTa      | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
-| T5           | 91.9%           | 91.8%            | 95.3%         | 74.5%            |
-| **CapsuleNet(Ensemble)** | **97.1%**        | **96.8%**        | **96.4%**     | **82.3%**        |
+| Model        | MNLI-m Accuracy | MNLI-mm Accuracy |
+|--------------|-----------------|---------------|
+| RoBERTa(Large)| 90.2%          | 90.2%         | 
+| ALBERT(XXLarge V1)| 90.8%      |90.8%             | 
+| DeBERTa(Large V3  | 91.8%           | 91.9%         | 
+| T5(11B)           | 92.2%           | 91.9%         |
+| **CapsuleNet(Ensemble)** | **96.7%**        | **96.8%**        |
 
 
 
