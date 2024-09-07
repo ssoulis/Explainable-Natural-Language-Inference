@@ -30,7 +30,7 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 
 ## Project Structure
 
-```python 
+```bash
 ├── Datasets/                     # Folder containing datasets (SNLI, MNLI, ANLI)
 ├── Explainability/                # Code for LIME and SHAP explainability techniques. There is also code for the Attention Visulization method.
 ├── Figures and Charts/            # Performance charts and visualizations
@@ -47,7 +47,21 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 This repository uses several widely recognized datasets for NLI:
 
 *  [SNLI](https://www.kaggle.com/datasets/stanfordu/stanford-natural-language-inference-corpus) (Stanford Natural Language Inference): Provides around 570k sentence pairs.
-*  [MNLI] (Multi-Genre Natural Language Inference): Includes over 400k sentence pairs from different genres.
-*  [ANLI] (Adversarial NLI): Contains more challenging examples, focusing on adversarially constructed sentence pairs.
+*  [MNLI](https://www.kaggle.com/datasets/thedevastator/nli-dataset-for-sentence-understanding) (Multi-Genre Natural Language Inference): Includes over 400k sentence pairs from different genres.
+*  [ANLI](https://www.kaggle.com/datasets/thedevastator/anli-a-large-scale-nli-benchmark-dataset) (Adversarial NLI): Contains more challenging examples, focusing on adversarially constructed sentence pairs.
+
+All datasets are available through the HuggingFace Datasets library or can be downloaded manually from kaggle.
+
+## Installation 
+
+To use the code in this repository, follow these steps:
+Clone the repository:
+   ```bash
+    git clone https://github.com/ssoulis/Explainable-Natural-Language-Inference.git
+    cd Explainable-Natural-Language-Inference
+   ```
+
+   
+
 
 
