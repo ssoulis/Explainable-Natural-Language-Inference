@@ -12,7 +12,8 @@ This repository contains the code and datasets used for the paper "Natural Langu
 * [Usage](#usage)
 * [Results](#results)
 * [Explainability Methods](#explainability-methods)
-* [Future Work](Future-Work)
+* [Future Work](#Future-Work)
+* [License](#license)
 
 ## Introduction
 
@@ -122,5 +123,30 @@ Performance of different models on NLI tasks:
 | **CapsuleNet(Ensemble)** | **96.7%**        | **96.8%**        |
 
 
+## Explainability Methods
 
+We implemented the LIME and SHAP explainability techniques to provide insights into the decision-making process of the transformer models. This helps visualize how the models utilize words and contextual information for their predictions.
+
+* [LIME](https://github.com/marcotcr/lime) (Local Interpretable Model-agnostic Explanations): Provides instance-specific interpretations.
+* [SHAP](https://github.com/shap/shap) (SHapley Additive exPlanations): Gives both local and global explanations for the model’s behavior.
+
+
+## Future Work
+
+Future work will focus on addressing the limitations identified in this research. One of the primary areas for improvement is enhancing the model's ability to identify and evaluate semantic connections between sentences.
+* This will involve refining the model's understanding of more complex relationships, such as metaphorical or inferential reasoning.
+* Additionally, we will explore different types of training data to reduce biases that may emerge during model training. This will help the model generalize better across a wider range of scenarios.
+* We also plan to test more sophisticated techniques, including dynamic reweighting of inputs, which would allow the model to adjust the importance of input features based on context.
+* Furthermore, we will investigate domain adaptation strategies to improve the model's performance in handling specific domains.
+* Lastly, we will use explainability methods such as **Attention Visualization** to explore the model's behavior more deeply, particularly in cases where the model produces incorrect inference results. These methods will help us better understand why errors occur and guide further improvements.
+
+Some initial code for the Attention Visualization technique is already written and available in the **Explainability folder**.
+
+Open the notebook below to access the results:
+```bash
+jupyter notebook deberta-explainability-attention-visualization.ipynb
+```
+## License 
+
+This repository is licensed under the MIT License. See the LICENSE file for more details.
 
