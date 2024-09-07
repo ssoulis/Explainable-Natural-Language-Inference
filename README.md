@@ -33,7 +33,7 @@ We also incorporate explainability techniques such as LIME and SHAP to interpret
 ## Project Structure
 
 ```bash
-├── Datasets/                     # Folder containing datasets (SNLI, MNLI, ANLI)
+├── Datasets/                      # Folder containing datasets (SNLI, MNLI, ANLI)
 ├── Explainability/                # Code for LIME and SHAP explainability techniques. There is also code for the Attention Visulization method.
 ├── Figures and Charts/            # Performance charts and visualizations
 ├── LIME explanations/             # LIME explanations for NLI tasks
@@ -65,23 +65,23 @@ To use the code in this repository clone the repository:
 ## Usage
 
 1. Setup and Run in Jupyter Notebook
-    ```bash
+ ```bash
     pip install jupyter
-    ```
-   Once installed, launch Jupyter Notebook:
-   ```bash
+ ```
+  Once installed, launch Jupyter Notebook:
+```bash
     jupyter notebook
-   ```
-    After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the 
-    NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
+```
+  After launching, navigate to the Explainable-Natural-Language-Inference directory in the Jupyter interface, and open the relevant notebook files, located in the 
+  NLI or Explainability directories. The notebooks will guide you through running model training, evaluation, and explainability analysis.
 
 2. Model Training/Evaluating in Jupyter Notebook
    
-   Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
-   This example will use the DeBERTa model.
+Inside the NLI directory, open the **deberta.ipynb** notebook. This notebook will guide you through training a transformer model for NLI tasks.
+This example will use the DeBERTa model.
    
-   Navigate to the directory:
-   ```bash
+Navigate to the directory:
+```bash
    cd NLI
     ```
    Open the notebook:
@@ -91,20 +91,20 @@ To use the code in this repository clone the repository:
 
 4. Ensemble Model Training in Jupyter Notebook
 
-   For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
-   For this example we are going to train a CapsuleNet ensemble model.
-   ```bash
+For training an ensemble of models, open the **ensemble_xxx.ipynb** notebook under the **NLI directory**:
+For this example we are going to train a CapsuleNet ensemble model.
+```bash
    jupyter notebook ensemble-CapsuleNet-simple.ipynb
-    ```
+```
 
 5. Explainability Analysis in Jupyter Notebook
    
-   To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
-   ```bash
+To generate LIME explanations, open the **deberta-lime.ipynb** notebook from the **Explainability directory**
+```bash
    jupyter notebook deberta-lime.ipynb
    ```
-   To generate  SHAP explanations, open the **deberta-shap.ipynb** notebook from the **Explainability directory**:
-   ```bash
+To generate  SHAP explanations, open the **deberta-shap.ipynb** notebook from the **Explainability directory**:
+```bash
    jupyter notebook deberta-shap.ipynb
    ```
 
