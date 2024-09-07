@@ -84,7 +84,7 @@ To use the code in this repository clone the repository:
   Navigate to the directory:
   ```bash
    cd NLI
-    ```
+   ```
    Open the notebook:
    ```bash
    jupyter notebook deberta.ipynb
