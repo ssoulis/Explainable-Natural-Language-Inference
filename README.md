@@ -8,6 +8,7 @@ This repository contains the code and datasets used for the paper "Natural Langu
 * [Features](#features)
 * [Project Structure](#project-structure)
 * [Datasets](#datasets)
+* [Ensemble Model](#ensemble-model)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Results](#results)
@@ -53,6 +54,10 @@ This repository uses several widely recognized datasets for NLI:
 *  [ANLI](https://www.kaggle.com/datasets/thedevastator/anli-a-large-scale-nli-benchmark-dataset) (Adversarial NLI): Contains more challenging examples, focusing on adversarially constructed sentence pairs.
 
 All datasets are available through the HuggingFace Datasets library or can be downloaded manually from kaggle.
+
+## Ensemble Model
+
+![alt text](https://github.com/ssoulis/Explainable-Natural-Language-Inference/blob/main/Figures%20and%20Charts/Stacking.PNG)
 
 ## Installation 
 
