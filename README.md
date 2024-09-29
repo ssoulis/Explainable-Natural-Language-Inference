@@ -156,5 +156,5 @@ jupyter notebook deberta-explainability-attention-visualization.ipynb
 ```
 ## License 
 
-This repository is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3 License. See the [LICENSE](https://github.com/ssoulis/Explainable-Natural-Language-Inference/blob/main/LICENSE) file for more details.
+This repository is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3. See the [LICENSE](https://github.com/ssoulis/Explainable-Natural-Language-Inference/blob/main/LICENSE) file for more details.
 
